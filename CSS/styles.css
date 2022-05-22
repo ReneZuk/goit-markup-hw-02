@@ -1,0 +1,19 @@
+.first-button > button {
+font-weight: 700;
+line-height: 1.87;
+color: blue;
+}
+
+.button {
+    background-color: #f5f4fa;
+    color: #212121;
+    background: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 1.6;
+}
