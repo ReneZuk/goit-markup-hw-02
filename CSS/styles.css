@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto' sans-serif;
+    text-align: center;
+    font-weight: 400;
     width: 1600px;
     height: 2349px;
 }
@@ -13,9 +15,36 @@ body {
       line-height: 0.61;
 }
 
-.span {
-
+span {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196f3;
 }
+
+.accent {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.text {
+    color: #000;
+    text-decoration: none;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    }
 
 .first-button > button {
         text-align: center;
