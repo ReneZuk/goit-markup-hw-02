@@ -11,6 +11,10 @@ a {
     color: #2196F3;
 }
 
+.navigation-mail {
+    text-decoration-color: none;
+    color: rgba(255, 255, 255, 0.6);
+}
 span {
     width: 145px;
     height: 31px;
@@ -22,6 +26,9 @@ span {
     font-size: 26px;
     line-height: 1.19;
     color: #2196f3;
+}
+.navigation {
+background: #FFFFFF;
 }
 
 .navigation1 {
@@ -48,13 +55,18 @@ span {
     line-height: 1.14;
     }
 
-.link:hover,
-.link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
     color: #2196f3;
 }
 
+.first-button {
+    text-align: center;
+    background: #2F303A;
+    color: #FFFFFF;
+}
+
 .first-button > button {
-        text-align: center;
         font-weight: 700;
         line-height: 1.87;
 }
@@ -65,7 +77,6 @@ span {
 }
 
 .button {
-    text-align: center;
     background-color: #f4f6fa;
     color: #212121;
     background: #f5f4fa;
@@ -169,8 +180,8 @@ color: #212121;
     color: #FFFFFF;
 }
 
-.mail,
-.tel {
+.navigation-mail,
+.navigation-tel {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
