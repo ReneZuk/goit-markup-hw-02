@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <header>
-        <!--Logo-->
-        <a href="https://renezuk.github.io/goit-markup-hw-01/">
-            <span class="accent">Web</span><span class="text">Studio</span></a>
-        <nav>
-            <!-- Nawigacja do innych stron -->
-            <ul class="link">
+        <nav class="navigation">
+        <a class="navigation-logo" href="https://renezuk.github.io/goit-markup-hw-01/">
+            <span class="navigation-logo-web">Web</span><span class="text">Studio</span></a>
+            <ul class="navigation-link">
                 <li><a href="/index.html">Agencja</a></li>
                 <li><a href="/portfolio.html">Porfolio</a></li>
                 <li><a href="kontakt">Kontakt</a></li>
             </ul>
         </nav>
-        <ul class="link">
+        <ul class="navigation-link">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
@@ -33,7 +34,6 @@
             <section>
             <ul> 
                <li>
-                   <!--nie stety tutaj nie chce mi sformatować tekstu, zrobiłam jak na filiku w lms-->
                    <h4 class="manu">LOREM IPSUM</h4>
                    <p class="submenu">
                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptates libero veniam nesciunt optio reprehenderit porro excepturi doloremque labore, modi quibusdam nisi dolorem rem quam. Quo sint iure ipsum ullam!
@@ -47,7 +47,7 @@
                 </li>
                 <li>
                     <h4 class="manu">LOREM IPSUM</h4>
-                    <p class="submanu">
+                    <p class="submenu">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptates libero veniam nesciunt optio reprehenderit porro excepturi doloremque labore, modi quibusdam nisi dolorem rem quam. Quo sint iure ipsum ullam!
                     </p>
                 </li>
@@ -62,7 +62,7 @@
             </ul>
         </section>
         <section class="title3">
-            <h">Nasz zespół</h2>
+            <h2>Nasz zespół</h2>
                 <ul>
                    <li> 
                     <img src="images/image4.jpg" alt="mężczyna uśmiechnięty" width="270" height="260" />
@@ -88,16 +88,17 @@
         </section>
     </main>
     <footer>
-        <a href="https://renezuk.github.io/goit-markup-hw-01/">
-            <span class="accent">Web</span><span class="text">Studio</span></a>
-        <address class="info">
-         m. Warszawa, Aleje Jerozolimskie 21
-        </address>
+         <nav class="navigation1">
+       <a class="navigation-logo" href="https://renezuk.github.io/goit-markup-hw-01/"></a>
+            <span class="navigation-logo-web">Web</span><span class="navigation-logo-web-studio1">Studio</span></a>
+        <address class="navigation-info">m. Warszawa, Aleje Jerozolimskie 21</address>
         <address>
-            <ul>
+        <ul>
            <li class="mail"> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="tel"><a href="tel:+48111111111">+48 111 111 111</a></li>
-            </ul>
+           <li class="tel"> <a href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+        </address>
+       </nav> 
         </address>
     </footer>
 </body>

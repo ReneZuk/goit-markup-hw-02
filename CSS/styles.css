@@ -1,10 +1,14 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway''Roboto', sans-serif;
     font-weight: 400;
 }
 
 :root {
     --brand-color: #3f51b5;
+}
+
+a {
+    color: #2196F3;
 }
 
 span {
@@ -20,17 +24,24 @@ span {
     color: #2196f3;
 }
 
-.accent {
+.navigation1 {
+    background-color: #000;
+}
+.navigation-logo-web {
     color: #2196F3;
     text-decoration-line: none;
 }
 
-.text {
+.navigation-logo-web-studio {
     color: #000;
     text-decoration: none;
 }
+.navigation-logo-web-studio1 {
+    color: #FFFFFF;
+}
 
-.link {
+.navigation-link {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -94,6 +105,22 @@ span {
     color: #757575;
 }
 
+.manu1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.submenu {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 .title2 {
 font-style: normal;
 font-weight: 700;
@@ -133,7 +160,7 @@ color: #212121;
     color: #757575;
 }
 
-.info {
+.navigation-info {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -152,19 +179,3 @@ color: #212121;
     color: #FFFFFF;
 }
 
-.manu1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-
-.submenu {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
