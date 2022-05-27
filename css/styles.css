@@ -57,6 +57,7 @@ span {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    list-style: none;
 }
 
 .navigation-link:hover,
@@ -128,6 +129,7 @@ span {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    list-style: none;
 }
 
 .submenu {
@@ -145,7 +147,7 @@ span {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-
+    list-style: none;
     color: #212121;
 }
 
@@ -157,6 +159,7 @@ span {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    list-style: none;
 }
 
 .name {
@@ -175,6 +178,7 @@ span {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    list-style: none;
 }
 
 .navigation-info {
@@ -194,4 +198,5 @@ span {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    list-style: none;
 }
