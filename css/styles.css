@@ -3,10 +3,16 @@ body {
     font-weight: 400;
 }
 
+:root {
+    --white: #FFFFFF;
+    --blue: #2196F3;
+    --black: #000;
+    --gray: #757575;
+}
 /* Logo*/
 
 .navigation {
-    background: #FFFFFF;
+    background: var(--white);
 }
 
 .navigation-logo {
@@ -22,58 +28,53 @@ body {
     }
 
 .navigation-logo-web {
-    color: #2196F3;
+    color: var(--blue);
     text-decoration-line: none;
 }
 
 .navigation-logo-web-studio {
-    color: #000;
+    color: var(--black);
     text-decoration: none;
 }
 
 /* Linki*/
 
-.navigation-text {
+.navigation-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     list-style: none;
     color: #212121;
-    text-decoration-line: none;
+    text-decoration: none;
+   
 }
-
-.navigation-text:last-child {
-    margin-bottom: 0;
-}
-
-.navigation-link {
-   color: #000; 
-   }
 
 .navigation-link:hover,
 .navigation-link:focus {
-    color: #2196f3;
+    color: var(--blue);
 }
 
 /*Contakt*/
 
-.contackt-text {
+.contakt-link {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        list-style-type: none;
-        color: #000;
-        text-decoration-line: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    color: #757575;
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.contact-link {
-    color: #757575;
+.contakt-link:hover,
+.contakt-link:focus {
+    color: var(--blue);
 }
 
 /*Fist section html */
@@ -90,7 +91,7 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .button1 {
@@ -173,7 +174,7 @@ body {
     color: #212121;
 }
 
-.submenu {
+.submanu1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
@@ -278,5 +279,5 @@ margin-bottom: 0;
 
 .footer-link:hover,
 .footer-link:focus {
-    color: rgba(255, 255, 255, 1);
+    color: #2196F3;
 }
