@@ -17,7 +17,6 @@ body {
 
 .navigation-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -85,7 +84,6 @@ body {
 .title {
     font-family: 'Roboto';
     text-align: center; 
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -121,7 +119,6 @@ body {
 
 .button {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -152,8 +149,6 @@ body {
 }
 
 .submenu {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
@@ -166,7 +161,6 @@ body {
     list-style-type: none;
 }
 .manu1 {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -175,7 +169,6 @@ body {
 }
 
 .submanu1 {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
@@ -185,7 +178,6 @@ body {
 /*Czym się zajmujemy*/
 
 .title2 {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -199,7 +191,6 @@ body {
 
 .title3,
 .picture {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -211,7 +202,6 @@ body {
 
 .name {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
@@ -222,8 +212,6 @@ body {
 
 .post {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -243,7 +231,6 @@ body {
 
 .footer-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19em;
@@ -261,10 +248,8 @@ body {
 }
 
 .footer-text {
-    font-style: normal;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400;
     list-style-type: none;
     color: #fff;
     margin-bottom: 9px;
